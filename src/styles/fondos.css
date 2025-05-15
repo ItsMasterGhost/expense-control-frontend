@@ -1,0 +1,56 @@
+.page-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: calc(100vh - 40px);
+}
+
+.page-title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.dx-button.add-button {
+  margin-bottom: 20px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.dx-datagrid {
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.dx-popup-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.dx-form {
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.dx-texteditor {
+  border-radius: 4px;
+}
+
+/* Asegurarse de que el texto de las cabeceras sea visible */
+.dx-datagrid-column-header .dx-datagrid-text-content {
+  color: #2c3e50 !important; /* Un color por defecto para el texto */
+  opacity: 1 !important; /* Asegurarse de que no haya transparencia */
+  display: block !important; /* Asegurarse de que se muestre */
+  visibility: visible !important; /* Asegurarse de que sea visible */
+  font-size: inherit !important; /* Heredar el tamaño de fuente */
+}
+
+/* Si hay algún estilo que afecte a los elementos 'th' */
+.dx-datagrid-headers th {
+  color: #2c3e50 !important;
+}

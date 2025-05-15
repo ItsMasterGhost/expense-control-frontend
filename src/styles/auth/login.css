@@ -1,0 +1,67 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2a5885;
+}
+
+/* Estilos específicos para los campos de entrada */
+.login-form .dx-texteditor {
+  border-radius: 4px;
+  border: 1px solid #d3d3d3;
+  padding: 8px 12px;
+}
+
+.login-form .dx-texteditor.dx-state-focused {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.login-form .dx-texteditor-input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.login-form .dx-field {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #d9534f;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.login-form .dx-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+}
+
+.login-form .dx-button.dx-state-hover {
+  background-color: #3a7bc8;
+}
+
+.dx-field-item-label-text-error {
+  color: #d9534f;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}

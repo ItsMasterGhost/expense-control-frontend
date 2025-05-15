@@ -1,0 +1,49 @@
+/* src/styles/movimientos/listado-gastos.css */
+.listado-gastos-page {
+  padding: 20px;
+  margin-left: 280px;
+  width: calc(100% - 280px);
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.listado-gastos-page .page-title {
+  margin-bottom: 20px;
+  color: #2f4050;
+  font-size: 24px;
+}
+
+.listado-gastos-page .filter-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.listado-gastos-page .date-filters {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Estilos específicos para el DataGrid en esta página */
+.listado-gastos-page .dx-datagrid {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .listado-gastos-page {
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .listado-gastos-page .date-filters {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

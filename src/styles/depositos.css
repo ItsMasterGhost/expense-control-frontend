@@ -1,0 +1,14 @@
+.depositos-page {
+  padding: 20px;
+}
+
+.depositos-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filter-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}

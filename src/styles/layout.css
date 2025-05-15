@@ -1,0 +1,62 @@
+/* src/styles/layout.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f3f4;
+}
+
+.content-page {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.content-title {
+  color: #2f4050;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.details-section {
+  margin-top: 30px;
+}
+
+.form-actions {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.filter-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.filter-item {
+  flex: 1;
+  max-width: 200px;
+}
+
+.chart-container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para DataGrid */
+.dx-datagrid {
+  margin-top: 15px;
+}
+
+/* Estilos para botones */
+.dx-button {
+  margin-right: 10px;
+}

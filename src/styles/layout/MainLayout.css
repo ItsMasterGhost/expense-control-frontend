@@ -1,0 +1,26 @@
+/* Estilos principales del layout */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  padding-top: 60px; /* Altura del header */
+}
+
+.content-area {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px; /* Ancho del sidebar */
+  transition: margin-left 0.3s;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .content-area {
+    margin-left: 0;
+  }
+}

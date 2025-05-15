@@ -1,0 +1,117 @@
+/* Contenedor principal */
+.grid-container {
+  padding: 20px;
+  height: calc(100vh - 40px);
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+/* DataGrid */
+.dx-datagrid {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex-grow: 1;
+}
+
+/* Header Panel - Contenedor principal del toolbar */
+.dx-datagrid-header-panel {
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Toolbar Items Container - Ajuste de layout */
+.dx-toolbar-items-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+/* Search Panel - Mover a la izquierda */
+.dx-toolbar-before {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Botón Agregar */
+.dx-button.dx-button-default {
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  order: 1; /* Posición después del search panel */
+}
+
+/* Contador Total */
+.dx-texteditor.dx-state-readonly {
+  background: transparent;
+  border: none;
+  color: #666;
+  font-size: 14px;
+  order: 2; /* Posición después del botón */
+  margin-left: 0;
+}
+
+.dx-texteditor-input {
+  padding: 0;
+  cursor: default;
+}
+
+/* Cabeceras */
+.dx-datagrid-headers {
+  background-color: #2f4050;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Filas alternas */
+.dx-datagrid-rowsview .dx-row-alt {
+  background-color: #f9f9f9;
+}
+
+/* Estilos para los tags de roles (ESTILO ESPECÍFICO PARA USUARIOS - CONSERVADO) */
+.role-tag {
+  display: inline-block;
+  background-color: #e1f5fe;
+  color: #0288d1;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+/* Formulario popup */
+.dx-popup-title {
+  background-color: #2f4050;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+}
+
+.dx-popup-content {
+  padding: 16px;
+}
+
+/* Filtros */
+.dx-datagrid-filter-row {
+  background-color: #f8f9fa;
+}
+
+.dx-texteditor {
+  border-radius: 4px;
+}
+
+/* Panel de carga */
+.dx-loadpanel-content {
+  padding: 20px;
+  border-radius: 8px;
+}

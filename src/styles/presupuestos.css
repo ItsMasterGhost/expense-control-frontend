@@ -1,0 +1,19 @@
+.content-page {
+  padding: 20px;
+}
+
+.content-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.filter-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-section .dx-selectbox {
+  width: 200px;
+}
